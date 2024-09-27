@@ -1,0 +1,73 @@
+.header{
+    height: 100px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+}
+.slider{
+    margin-top: 10px;
+    height: 250px;
+    background-color: orange;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    height: 180px;
+    flex-grow: 1;
+    background-color: chartreuse;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.card2{
+    margin-right: 0px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+}
+
+.row{
+    height: 45%;
+    background-color: darkgoldenrod;
+    margin-bottom: 15px;
+}
+.row2{
+    height: 45%;
+    background-color: darkgoldenrod;
+
+}
+
+.col{
+    height: 150px;
+    background-color: darkgray;
+    flex-grow: 1;
+    margin-right: 15px;
+    width: 10.8%;
+}
+.transittion3:hover{
+    transform: scale(1.5);
+}
+.transittion2:hover{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.transittion1:hover{
+    transform: rotate(45deg);
+}
+
+.title1{
+    font-size: 40px;
+    
+}
